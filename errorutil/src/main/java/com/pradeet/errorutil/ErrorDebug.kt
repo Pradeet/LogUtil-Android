@@ -1,13 +1,13 @@
-package com.pradeet.logutil
+package com.pradeet.errorutil
 
 import android.util.Log
 
-class LogDebug {
+class ErrorDebug {
     companion object {
         private const val TAG = "AndroidLogUtil"
 
-        fun d(message: String) {
-            Log.d(TAG, message)
+        fun e(message: String) {
+            Log.e(TAG, message)
         }
     }
 }
